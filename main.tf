@@ -83,3 +83,11 @@ resource "aws_instance" "demo" {
     AppVersion = var.app_version
   })
 }
+  common_tags = {
+    Owner       = var.username
+    Environment = var.environment
+    ManagedBy   = "TerraformCloud"
+    Lab         = "12"
+    Workflow    = "VCS-driven"
+    CostCenter  = "Training"   # ← only this line is new
+  }
