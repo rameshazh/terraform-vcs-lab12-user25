@@ -12,7 +12,7 @@ terraform {
     organization = "rameshtech"   # e.g., "user1-terraform-training"
 
     workspaces {
-      name = "terraform-vcs-lab12-user25"   # e.g., "vcs-lab12-user1"
+      name = "terraform-vcs-lab12-user25-2"   # e.g., "vcs-lab12-user1"
     }
   }
 }
